@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+html {
+	background-color: #f7f8fb;
+}
+
+header {
+	padding: 20px;
+	margin-top: 0%;
+	margin-left: 0%;
+	background-color: #fff;
+
+}
+
+.logo {
+	font-size: 1.1rem;
+	margin: 0;
+	padding: 0.75rem 0;
+}
+.header2{
+	max-width:var(--max-width);
+  margin:0 auto;
+  padding:1rem;
+	display: flex;
+	align-items:center;
+	justify-content:space-between;
+}
+nav ul {
+	list-style-type: none;
+}
+nav ul a{
+	color: #060606;
+	font-weight: bold;
+}
+
+.about1 {
+	margin: 2%;
+}
+.about1 h3{
+	text-align: center;
+}
+
+.about2 {
+	padding: 1%;
+	background-color: #fff;
+}
+.about2 h2{
+	text-align: center;
+}
+.skills2{
+	display: flex;
+}
+.skill{
+	background-color: #fff;
+	padding: 2%;
+}
+.skills1 h3{
+	text-align: center;
+}
+.contact2{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.contact1 h3{
+	text-align: center;
+}
+footer{
+	text-align: center;
+}
